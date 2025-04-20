@@ -40,6 +40,7 @@ data_filtered_scaled = scaler.fit_transform(data_filtered)
 
 #4 Create Sequences for the LSTM
 
+data_sequenced = np.array(data_filtered_scaled)
 
 
 #5 Split the Data into Training and Testing Sets
